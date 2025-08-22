@@ -12,7 +12,7 @@ In this project, I will design a simplified version of a video-sharing platform.
 <img width="974" height="279" alt="image" src="https://github.com/user-attachments/assets/2d27673f-0b5b-43be-bd4c-09c20ff29054" />
 
 Step 1:
-The initial step in this workflow is a user uploading their video to YouTube. Usually, this video will be uploaded in 4K high quality. This video will be initially stored in S3 object storage. S3 is a great choice for video files.
+The initial step in this workflow is a user uploading their video to YouTube. Usually, this video will be uploaded in 4K high quality. This video will be initially stored in S3 object storage, which is a great choice for video files.
 
 Step 2:
 Video metadata, which is general text based information about the video, like video title, video tags, or video description, needs to be stored. For free-form text data like this, a NoSQL database like OpenSearch would be an excellent choice. 
